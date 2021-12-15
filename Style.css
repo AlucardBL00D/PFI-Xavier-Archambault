@@ -1,0 +1,128 @@
+body{
+    font-family: 'PT Sans', sans-serif; /* J'ai utiliser google font pour trouver exactement le nom du style de texte*/
+    background-color:rgb(80, 80, 80);
+}
+
+.NomDuSite{
+    color: rgb(252, 98, 244);
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Kaushan Script', cursive; /* J'ai utiliser google font pour trouver exactement le nom du style de texte*/
+}
+.head {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+li {
+    display: block;
+    position: relative;
+    width: 260px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+li:hover {
+    color: rgb(0, 255, 255);
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(0, 255, 255);
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+.PetitTitre{
+    color: rgb(252, 98, 244);
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive; /* J'ai utiliser google font pour trouver exactement le nom du style de texte*/
+}
+
+.texte{
+    color: white;
+}
+
+.img{
+    width: 300px;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a1a1a1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.Index{
+    display: block;
+    position: relative;
+    width: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.Index:hover{
+    color: rgb(0, 255, 255);
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+.barre{
+    display: grid;
+    grid-template-columns: 85px 115px 175px 75px 100px ;
+    grid-gap: 10px;
+}
+
+.barreCase{
+    display: block;
+    position: relative;
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 95, 95);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+}
+@media screen and (max-width: 500px) {
+    .img{
+        width: 40%;
+    }
+    
+    iframe{
+        width: 40%;
+        height: 40%;
+    }
+
+    .barre{
+        display: grid;
+        grid-template-columns: 175px;
+    }
+    audio{
+        width: 40%;
+    }
+  }
